@@ -1,5 +1,397 @@
 extends layout
 
-block content
-  h1= title
-  p Welcome to #{title}
+block content 
+  section(class='section services')
+    .container
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .title
+            h2(class='title-section wow animated fadeInDown') experience with popular technologies
+            .separator_wrapper.wow.fadeIn
+              .separator_first_circle
+                .separator_second_circle_grey
+            p(class='subtitle wow animated fadeInDown')
+              | Expertise and experience with a wide variety of modern software development tools.
+        .clearfix
+      .row(style='width: 90%;display: block;margin: 0 auto;')
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/visualstudio.png')
+                    .media-content Visual Studio
+                .content Years of experience with multiple versions of Microsoft Visual Studio and its' integration with the Microsoft ecosystem. 
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/angular.jpg' width='50px')
+                    .media-content AngularJS
+                .content Strong knowledge of open-source web application framework mainly maintained by Google and by a community of individual developers and corporations to address many of the challenges encountered in developing single-page applications.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/nodejs.jpg' width='100px')
+                    .media-content Node JS
+                .content Years of experience with multiple versions of Microsoft Visual Studio and its' integration with the Microsoft ecosystem.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/octocat.png' width='60px')
+                    .media-content GitHub
+                .content Leverage GitHub Web-based repository hosting service. Offering all of the distributed revision control and source code management (SCM) functionality of Git.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/azurelogo.png' width='180px')
+                    .media-content
+                .content Provide clients with cloud services using Microsoft’s azure technologies. Services include web and database hosting.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.card.wow.animated.pulse
+            .card-content
+                .media
+                    .media-left
+                         img(src='/images/net-logo.jpg' width='55px')
+                    .media-content Microsoft .Net
+                .content Over a decade of experience with .NET Framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library known as Framework Class Library and provides language interoperability across several programming languages.
+        
+        
+        
+       
+        
+        
+   //
+      .row(style='width: 90%;display: block;margin: 0 auto;')
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox
+          img(src='/images/visualstudio.png')
+          .desc
+            h4 Visual Studio
+            p Years of experience with multiple versions of Microsoft Visual Studio and its' integration with the Mircsoft ecosystem.      
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox          
+          .desc
+            .head
+                img(src='/images/angular.jpg' style="")
+                h4 AngularJS
+            p Strong knowledge of open-source web application framework mainly maintained by Google and by a community of individual developers and corporations to address many of the challenges encountered in developing single-page applications.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox          
+          .desc
+            img(src='/images/nodejs.jpg')
+            p Coded multiple systems using jQuery libary to enchance front end user experience with web applications.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox         
+          .desc
+            img(src='/images/githublogo.png')
+            p Leverage GitHub Web-based repository hosting service. Offering all of the distributed revision control and source code management (SCM) functionality of Git.
+      .row(style='width: 90%;display: block;margin: 0 auto;')
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox
+          img(src='/images/azurelogo.png')
+          .desc
+            h4 Microsoft Azure
+            p Provide clients with cloud services using Microsoft’s azure technologies. Services include web and database hosting.      
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox
+          img(src='/images/LogoAspNet.png')
+          .desc
+            h4 .Net
+            p Over a decade of experience with .NET Framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library known as Framework Class Library and provides language interoperability across several programming languages.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox
+          img(src='/images/tfs.png')
+          .desc
+            h4 Team Foundations Server
+            p Microsoft product which provides source code management (either via Team Foundation Version Control or Git), reporting, requirements management, project management (for both agile software development and waterfall teams), automated builds, lab management, testing and release management capabilities.
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.servbox
+          img(src='/images/sqlserver.png')
+          .desc
+            h4 SQL Server
+            p SQL Server is a relational database management system (RDBMS) from Microsoft that's designed for the enterprise environment. 
+            
+             
+  section(id='sectionSkills' class='section skills')
+    .container    
+      .row        
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .title
+            h2(class='title-section wow animated fadeInDown') technical skills
+            .separator_wrapper.wow.fadeIn
+              .separator_first_circle
+                .separator_second_circle_grey                        
+      .row(style='width: 90%;display: block;margin: 0 auto;')
+        .clearfix
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .title2.wow.fadeInDown
+            .separator_first_circle
+              .separator_second_circle_grey
+            | web   
+          h4(class='skill-title') HTML
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width: 95%;')
+          h4(class='skill-title') CSS
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')            
+          h4(class='skill-title') JavaScript
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='75' aria-valuemin='0' aria-valuemax='100' style='width: 75%;')    
+          h4(class='skill-title') jQuery
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='98' aria-valuemin='0' aria-valuemax='100' style='width: 98%;')  
+          h4(class='skill-title') Angular JS
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='50' aria-valuemin='0' aria-valuemax='100' style='width: 50%;')  
+          h4(class='skill-title') React JS
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width: 70%;')  
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .title2.wow.fadeInDown
+            .separator_first_circle
+              .separator_second_circle_grey
+            | program languages          
+          h4(class='skill-title') C#
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width: 95%;')
+          h4(class='skill-title') Visual Basic
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width: 95%;')            
+          h4(class='skill-title') Java
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='30' aria-valuemin='0' aria-valuemax='100' style='width: 30%;')    
+          h4(class='skill-title') PHP
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100' style='width: 25%;')  
+          h4(class='skill-title') SQL
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 80%;')          
+            
+      .row(style='width: 90%;display: block;margin: 0 auto;')
+        .clearfix
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .title2.wow.fadeInDown
+            .separator_first_circle
+              .separator_second_circle_grey
+            | database skills  
+           h4(class='skill-title') SQL Server
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width: 95%;')
+          h4(class='skill-title') SQLite
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='90' aria-valuemin='0' aria-valuemax='100' style='width: 90%;')            
+          h4(class='skill-title') MySQL
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 80%;')    
+          h4(class='skill-title') Oracle
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='30' aria-valuemin='0' aria-valuemax='100' style='width: 30%;')  
+          h4(class='skill-title') DB2
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='75' aria-valuemin='0' aria-valuemax='75' style='width: 75%;')   
+          h4(class='skill-title') Mongo DB
+          .persen 
+          .progress.wow.animated.bounceInLeft
+            .progress-bar(role='progressbar' aria-valuenow='40' aria-valuemin='0' aria-valuemax='75' style='width: 40%;')          
+            
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .title2.wow.fadeInDown
+            .separator_first_circle
+              .separator_second_circle_grey
+            | other      
+           h4(class='skill-title') Windows & OSX
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width: 95%;')
+          h4(class='skill-title') Microsoft Sharepoint
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')            
+          h4(class='skill-title') Word Press
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='65' aria-valuemin='0' aria-valuemax='100' style='width: 65%;')  
+          h4(class='skill-title') Microsoft Dynamics
+          .persen 
+          .progress.wow.animated.bounceInRight
+            .progress-bar(role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width: 80%;')          
+  section(id='sectionExp' class='section visexp' style='background: #fff url("../images/bg-connect.jpg") 0% 0% fixed repeat')
+    .container
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .title
+            h2(class='title-section wow animated fadeInDown' style='color:black;') visual experence
+            .separator_wrapper.wow.fadeIn
+              .separator_first_circle
+                .separator_second_circle_grey                    
+      .row        
+        img(src='/images/visexp.png' style='width: 90%;display: block;margin: 0 auto;')                   
+  section(class='section about')
+    .container
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .title
+            h2(class='title-section wow animated fadeInDown') work history
+            .separator_wrapper.wow.fadeIn
+              .separator_first_circle
+                .separator_second_circle_grey
+            p(class='subtitle wow animated fadeInDown')
+              | Strong experience in information technology consulting with a focus in the collaboration and knowledge of software development. Application Engineer, Business Analyst, Architect. Worked with a variety of clients with competencies in the technology, government, industrial -   manufacturing, public, and software industries.                   
+        .col-xs-12.col-sm-6.col-md-6.col-md-offset-1.col-lg-10.col-lg-offset-1
+          .years2
+            .row.item.wow.animated.fadeInDown
+              .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                .year Current
+                  hr
+                  | July 2014
+              .col-xs-10.col-sm-10.col-md-10.col-lg-10
+                .desc
+                  h4 Senior Software Developer
+                  p(class='subtitle') Scytl; Tampa, FL
+                  p 
+                    ul(class='ulJobpoints')     
+                      li 
+                        a
+                          | Developed an electronic poll book application; using .Net C# and XAML; that allows election officials to review and/or process voter information during an election. The poll book is designed to be hardware agnostic running on desktop and tablet computers. Developed and designed the solution to be operable in a fully connected or disconnected environment.                    
+                      li
+                        a
+                          | Coded the poll book to synchronize data with other poll books and the Microsoft Dynamics(VRM) web platform using a combination of RESTful ASP .Net web services and SignalR communications.
+                      li
+                        a
+                          | Developed web portals for the Voter Relationship Management(VRM) system. Extended functionality of Microsoft’s CRM system to be used as modern election monitoring, management, and reporting software using AngularJS, jQuery, and ASP .Net MVC.
+                      li
+                        a
+                          | Designed and developed the database model of both the VRM system using Microsoft Dynamics (SQL Server) and the local data base of the poll books (SQLite) 
+                      li
+                        a
+                          | Provided assistance and guidance to junior and fellow developers when needed. Performed code reviews of team members and peers while helping create coding processes and standards for the organization; utilizing agile and scrum principles and tools such as TFS.  
+                      li
+                        a
+                          | Performed work in a full Agile/Scrum environment and team with two week long sprints containing sprint retrospectives, planning’s, and reviews.  
+            .row.item.wow.animated.fadeInDown
+              .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                .year July 2014
+                  hr
+                  | April 2012
+              .col-xs-10.col-sm-10.col-md-10.col-lg-10
+                .desc
+                  h4 Senior Software Developer
+                  p(class='subtitle') AAA Auto Club South; Tampa, FL
+                  p 
+                    ul(class='ulJobpoints')     
+                      li 
+                        a
+                          | Developing and enhancing a web based system that AAA insurance agents use to quote and sell customers car insurance. With the ability to connect to multiple other insurance companies Safeco, Progressive, Infinity, and others to obtain multiple insurance rates using web services.                     
+                      li
+                        a
+                          | Refactored web based system to use modern web technologies such as jQuery and AJAX. Reworked the layout and design to use up-to-date CSS standards. Reworked legacy code to increase performance by up to 80 percent.                           
+            .row.item.wow.animated.fadeInDown
+              .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                .year April 2012
+                  hr
+                  | January 2008
+              .col-xs-10.col-sm-10.col-md-10.col-lg-10
+                .desc
+                  h4 Lead Software Developer
+                  p(class='subtitle') Brandt Information Services; Tallahassee, FL
+                  p 
+                    ul(class='ulJobpoints')     
+                      li 
+                        a
+                          | Manage and work in small to large teams of software developers, managers and project managers to complete a variety of projects.                      
+                      li
+                        a
+                          | Work with a variety of clients including; The Florida Department of Health (DOH), Florida Agency for Enterprise Information Technology (AEIT), Children and Youth Cabinet (CYC), and Florida Vital Statistics.      
+            .row.item.wow.animated.fadeInDown
+              .col-xs-2.col-sm-2.col-md-2.col-lg-2
+                .year January 2008
+                  hr
+                  | January 2005
+              .col-xs-10.col-sm-10.col-md-10.col-lg-10
+                .desc
+                  h4 Software Developer
+                  p(class='subtitle') Wise Outlook, LLC; Tallahassee, FL
+                  p 
+                    ul(class='ulJobpoints')     
+                      li 
+                        a
+                          | Successfully completed multiple projects for private companies and government agencies, including; Papa John’s Pizza, Florida Department of Education (DOE), Florida Department of Environmental Protection (DEP), Paul’s Consulting & Ashbritt Environmental, and Florida Department of Health (DOH).                                              
+    .container(id='sectionPortfolio')
+        .row
+            br
+            br
+            .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                .title
+                    h2(class='title-section wow animated fadeInDown') portfolio
+                    .separator_wrapper.wow.fadeIn
+                        .separator_first_circle
+                            .separator_second_circle_grey
+                    p(class='subtitle wow animated fadeInDown')                                                                                                                                             
+        .row
+            .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='http://stephenfrouge.com/img/papajohns.png')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details Web | Papa John’s Mobile App    
+            .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='http://stephenfrouge.com/img/sqs.png')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details Web | SQS Auto Quote System         
+             .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='/images/epb.png')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details App | ePollbook    
+            .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='http://stephenfrouge.com/img/meckleyweb.PNG')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details Web | Vote Paula Meckley                             
+                            
+                                      
+           
+  br
+  br
+  br
+
+      
+    
+
+
+
+
