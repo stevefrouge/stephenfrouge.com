@@ -10,7 +10,7 @@ loginDao.prototype = {
         //var self = this;
 
         if(item.email == "sjf6598@gmail.com"){
-            if(item.password == "celica2000"){
+            if(item.password == "pw"){
                 callback(true);
             }
         }
