@@ -1,5 +1,33 @@
 new WOW().init();
 
+/*$(window).scroll(function() {
+   var hT = $('#rowskills2').offset().top,
+       hH = $('#rowskills2').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+       
+       
+       var percent = $("#pbHTML").attr( "aria-valuenow");
+       
+       
+        var maxLoops = percent;
+        var counter = 0;
+
+        (function next() {
+                if (counter++ >= maxLoops) return;
+
+                setTimeout(function() {
+                //console.log(counter);
+                $("#pbHTML").css( "width", counter.toString() + "%"); 
+                    next();
+            }, 50);
+        })();
+       
+       
+   }
+});*/
+
 
 
 function scrollTo(eleName){
